@@ -1,0 +1,10 @@
+items = ["book", "pen", "bag"]
+print(items[0], items[-3])
+print(items[1:3])
+items.append("cup")
+items[0] = "note"
+print(items)
+
+point = (10, 30)
+x, y = point
+print(x, y)
